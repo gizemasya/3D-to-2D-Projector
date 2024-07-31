@@ -11,7 +11,7 @@ This package has been tested with Ubuntu 20.04, ROS Noetic and OpenCV 4.
 Clone the repository in your home:
 ```
     cd ~
-    git clone https://github.com/gizemasya/Projecting-3D-Points.git
+    git clone https://github.com/gizemasya/3D-to-2D-Projector.git
 ```
 Build the package with:
 ```
