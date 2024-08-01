@@ -1,5 +1,8 @@
 # 3D-to-2D-Projector
 ## ROS package that projects a 3D point and its unit vectors onto camera using KITTI rosbag
+
+![](./kitti.gif)
+
 ## 1. Prerequisites
 This package has been tested with Ubuntu 20.04, ROS Noetic and OpenCV 4.
 - C++11 or higher
@@ -32,4 +35,4 @@ In another terminal, start playing the KITTI rosbag:
 ## 4. Setting Parameters (Optional)
 To set your desired point in 3D, you can change the values of **origin_of_temp_in_world_** and **rotation_of_temp_in_world_** variables from Pinhole.cpp line 3.
 - **origin_of_temp_in_world_** variable takes x,y,z coordinates of the 3D point relative to the world frame.
-- **rotation_of_temp_in_world_** variable is a quaternion represents the rotation of the 3D point relative to the world frame, takes x,y,z,w as values.
+- **rotation_of_temp_in_world_** variable is a quaternion represents the rotation of the 3D point relative to the world frame, takes x,y,z,w as parameters.
