@@ -214,7 +214,3 @@ include_directories(
 add_executable(Pinhole src/Pinhole.cpp)
 target_link_libraries(Pinhole ${catkin_LIBRARIES})
 add_dependencies(Pinhole ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-
-add_executable(EigenOnly src/EigenOnly.cpp)
-target_link_libraries(EigenOnly ${catkin_LIBRARIES})
-add_dependencies(EigenOnly ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
