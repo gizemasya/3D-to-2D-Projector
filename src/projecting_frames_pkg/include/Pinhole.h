@@ -41,18 +41,18 @@ class Pinhole{
         tf::Transform create_temp_transorm_;
 
         tf::TransformListener tf_listener_;
-        tf::StampedTransform map_to_dash_transform_;
+        tf::StampedTransform world_to_camera_transform_;
 
-        const tf::Quaternion rotation_of_temp_in_map_;
-        const tf::Point origin_of_temp_in_map_;
-        tf::Point i_of_temp_in_map_;
-        tf::Point j_of_temp_in_map_;
-        tf::Point k_of_temp_in_map_;
+        const tf::Quaternion rotation_of_temp_in_world_;
+        const tf::Point origin_of_temp_in_world_;
+        tf::Point i_of_temp_in_world_;
+        tf::Point j_of_temp_in_world_;
+        tf::Point k_of_temp_in_world_;
 
-        tf::Point origin_of_temp_in_dash_;
-        tf::Point i_of_temp_in_dash_;
-        tf::Point j_of_temp_in_dash_;
-        tf::Point k_of_temp_in_dash_;
+        tf::Point origin_of_temp_in_camera_;
+        tf::Point i_of_temp_in_camera_;
+        tf::Point j_of_temp_in_camera_;
+        tf::Point k_of_temp_in_camera_;
 
         cv::Point2d cv_origin_projected_2d_;
         cv::Point2d cv_i_projected_2d_;
