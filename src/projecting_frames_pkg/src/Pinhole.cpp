@@ -51,7 +51,7 @@ void Pinhole::getUnitVectors(){
 // the main function which does both extrinsic and intrinsic transformation
 void Pinhole::controlLoop(){
     if (image_.empty()) {
-        ROS_ERROR("Image is empty. Cannot display.");
+        ROS_INFO("Waiting for image...");
         return;
     }
     
