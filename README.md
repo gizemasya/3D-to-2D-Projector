@@ -30,6 +30,6 @@ In another terminal, start playing the KITTI rosbag:
     rosbag play kitti_2011_09_26_drive_0002_synced.bag
 ```
 ## 4. Setting Parameters (Optional)
-To set your desired point in 3D, you can change the values of **origin_of_temp_in_world_** and **rotation_of_temp_in_world_** parameters from Pinhole.cpp line 3.
-- **origin_of_temp_in_world_** parameter takes x,y,z coordinates of the 3D point relative to the world frame.
-- **rotation_of_temp_in_world_** parameter is a quaternion represents the rotation of the 3D point relative to the world frame, takes x,y,z,w as values.
+To set your desired point in 3D, you can change the values of **origin_of_temp_in_world_** and **rotation_of_temp_in_world_** variables from Pinhole.cpp line 3.
+- **origin_of_temp_in_world_** variable takes x,y,z coordinates of the 3D point relative to the world frame.
+- **rotation_of_temp_in_world_** variable is a quaternion represents the rotation of the 3D point relative to the world frame, takes x,y,z,w as values.
